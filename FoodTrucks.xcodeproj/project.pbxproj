@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		7DF351CA2141DEF400818765 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF351C92141DEF400818765 /* AppDelegate.swift */; };
-		7DF351CC2141DEF400818765 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF351CB2141DEF400818765 /* ViewController.swift */; };
 		7DF351CF2141DEF400818765 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF351CD2141DEF400818765 /* Main.storyboard */; };
 		7DF351D12141DEF600818765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DF351D02141DEF600818765 /* Assets.xcassets */; };
 		7DF351D42141DEF600818765 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF351D22141DEF600818765 /* LaunchScreen.storyboard */; };
+		7DF351DC2141E26200818765 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DF351DB2141E26100818765 /* GoogleService-Info.plist */; };
+		7DF351DE2141E3F900818765 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF351DD2141E3F900818765 /* UIColor.swift */; };
+		7DF351E12141E44200818765 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF351E02141E44200818765 /* UIView.swift */; };
+		7DF351E32141E85E00818765 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF351E22141E85E00818765 /* RegisterViewController.swift */; };
+		7DF351E62141EB9900818765 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF351E52141EB9900818765 /* RegisterViewModel.swift */; };
+		B219DCC12E651E9BDEFC4C60 /* Pods_FoodTrucks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A5F949C270C6D3BA0C9D90 /* Pods_FoodTrucks.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07A5F949C270C6D3BA0C9D90 /* Pods_FoodTrucks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodTrucks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		609FDC95C64BBDA5882B3B2A /* Pods-FoodTrucks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTrucks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodTrucks/Pods-FoodTrucks.debug.xcconfig"; sourceTree = "<group>"; };
 		7DF351C62141DEF400818765 /* FoodTrucks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTrucks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF351C92141DEF400818765 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7DF351CB2141DEF400818765 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7DF351CE2141DEF400818765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7DF351D02141DEF600818765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DF351D32141DEF600818765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DF351D52141DEF600818765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DF351DB2141E26100818765 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7DF351DD2141E3F900818765 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		7DF351E02141E44200818765 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		7DF351E22141E85E00818765 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		7DF351E52141EB9900818765 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		F784B786F8DFCA84E701B672 /* Pods-FoodTrucks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTrucks.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodTrucks/Pods-FoodTrucks.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B219DCC12E651E9BDEFC4C60 /* Pods_FoodTrucks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02A043B25C89FA0C3F1B8814 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				609FDC95C64BBDA5882B3B2A /* Pods-FoodTrucks.debug.xcconfig */,
+				F784B786F8DFCA84E701B672 /* Pods-FoodTrucks.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7DF351BD2141DEF300818765 = {
 			isa = PBXGroup;
 			children = (
 				7DF351C82141DEF400818765 /* FoodTrucks */,
 				7DF351C72141DEF400818765 /* Products */,
+				02A043B25C89FA0C3F1B8814 /* Pods */,
+				913A9FC2D972CA2D69F4E2D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +79,41 @@
 			isa = PBXGroup;
 			children = (
 				7DF351C92141DEF400818765 /* AppDelegate.swift */,
-				7DF351CB2141DEF400818765 /* ViewController.swift */,
+				7DF351DF2141E43200818765 /* Utils */,
+				7DF351E42141EA7400818765 /* Registration */,
 				7DF351CD2141DEF400818765 /* Main.storyboard */,
 				7DF351D02141DEF600818765 /* Assets.xcassets */,
 				7DF351D22141DEF600818765 /* LaunchScreen.storyboard */,
 				7DF351D52141DEF600818765 /* Info.plist */,
+				7DF351DB2141E26100818765 /* GoogleService-Info.plist */,
 			);
 			path = FoodTrucks;
+			sourceTree = "<group>";
+		};
+		7DF351DF2141E43200818765 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7DF351DD2141E3F900818765 /* UIColor.swift */,
+				7DF351E02141E44200818765 /* UIView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7DF351E42141EA7400818765 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				7DF351E22141E85E00818765 /* RegisterViewController.swift */,
+				7DF351E52141EB9900818765 /* RegisterViewModel.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		913A9FC2D972CA2D69F4E2D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07A5F949C270C6D3BA0C9D90 /* Pods_FoodTrucks.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +123,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7DF351D82141DEF600818765 /* Build configuration list for PBXNativeTarget "FoodTrucks" */;
 			buildPhases = (
+				090E60E544E9532F69B6E111 /* [CP] Check Pods Manifest.lock */,
 				7DF351C22141DEF300818765 /* Sources */,
 				7DF351C32141DEF300818765 /* Frameworks */,
 				7DF351C42141DEF300818765 /* Resources */,
+				61A71A3CF9224143E2918C37 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DF351D42141DEF600818765 /* LaunchScreen.storyboard in Resources */,
+				7DF351DC2141E26200818765 /* GoogleService-Info.plist in Resources */,
 				7DF351D12141DEF600818765 /* Assets.xcassets in Resources */,
 				7DF351CF2141DEF400818765 /* Main.storyboard in Resources */,
 			);
@@ -130,12 +185,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		090E60E544E9532F69B6E111 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodTrucks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61A71A3CF9224143E2918C37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FoodTrucks/Pods-FoodTrucks-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodTrucks/Pods-FoodTrucks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7DF351C22141DEF300818765 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DF351CC2141DEF400818765 /* ViewController.swift in Sources */,
+				7DF351E12141E44200818765 /* UIView.swift in Sources */,
+				7DF351E62141EB9900818765 /* RegisterViewModel.swift in Sources */,
+				7DF351E32141E85E00818765 /* RegisterViewController.swift in Sources */,
+				7DF351DE2141E3F900818765 /* UIColor.swift in Sources */,
 				7DF351CA2141DEF400818765 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +377,7 @@
 		};
 		7DF351D92141DEF600818765 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 609FDC95C64BBDA5882B3B2A /* Pods-FoodTrucks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +396,7 @@
 		};
 		7DF351DA2141DEF600818765 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F784B786F8DFCA84E701B672 /* Pods-FoodTrucks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
