@@ -40,6 +40,7 @@ class RegisterViewController: UIViewController {
     let registerButton: UIButton = {
         let button = UIButton(type: .system)
         button.setTitle("Register", for: .normal)
+        button.titleLabel?.textAlignment = .center
         return button
     }()
     
@@ -58,7 +59,7 @@ class RegisterViewController: UIViewController {
         // setup listener for view model
         registerViewModel.isValidListener = { [unowned self] (isValid) in
             self.registerButton.isEnabled = isValid
-        }   
+        }
     }
     
 } // RegisterViewController
