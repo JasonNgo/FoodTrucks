@@ -58,8 +58,7 @@ class RegisterViewController: UIViewController {
         // setup listener for view model
         registerViewModel.isValidListener = { [unowned self] (isValid) in
             self.registerButton.isEnabled = isValid
-        }
-        
+        }   
     }
     
 } // RegisterViewController
